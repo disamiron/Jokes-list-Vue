@@ -1,5 +1,5 @@
 <template>
-  <h1>10 jokes for fun</h1>
+<h1>TEN RANDOM JOKES</h1>
   <h2>Search among jokes:</h2>
     <input type="text" @input="changeInput" />
 
