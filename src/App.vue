@@ -6,7 +6,7 @@
 
 
     <ol>
-    <li v-for="{ id, joke } in jokes" v-bind:id="'list-' + id">
+    <li v-for="{ id, joke } in jokes" v-bind:id="'list-' + id" v-bind:key="id">
       {{ joke }}
       <button v-bind:key="id" @click="likeThis(id)" v-bind:class="'list-' + id"></button>
     </li>
